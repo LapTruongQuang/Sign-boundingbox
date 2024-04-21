@@ -39,7 +39,7 @@ def main():
         processed_img, name = process.run(img)
         st.image(processed_img, use_column_width=False)
         st.write(f"Predicted Traffic Sign: {name}")
-        #shutil.rmtree("temp")
+        shutil.rmtree("temp")
 
 
 
